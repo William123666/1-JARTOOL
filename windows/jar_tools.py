@@ -18,6 +18,8 @@ JAR_URLS = {
                              '.0_jar_openjdk1.8.zip',
                     'persist': 'https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/11.0/stable/finereport11'
                                '.0_jar_openjdk1.8.zip',
+                    'persist-test': 'https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/11.0/persist-test/finereport11'
+                                    '.0_jar_openjdk1.8.zip',
                     'XC': 'https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/11.0/XC/finereport11'
                           '.0_jar_openjdk1.8.zip '
                 },

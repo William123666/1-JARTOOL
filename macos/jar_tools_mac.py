@@ -12,8 +12,9 @@ JAR_URLS = {
             'feature': 'https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/11.0/nightly/finereport11.0_jar_openjdk1.8.zip',
             'release': 'https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/11.0/release/finereport11.0_jar_openjdk1.8.zip',
             'final':   'https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/11.0/final/finereport11.0_jar_openjdk1.8.zip',
-            'persist': 'https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/11.0/stable/finereport11.0_jar_openjdk1.8.zip',
-            'XC':      'https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/11.0/XC/finereport11.0_jar_openjdk1.8.zip',
+            'persist':      'https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/11.0/stable/finereport11.0_jar_openjdk1.8.zip',
+            'persist-test': 'https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/11.0/persist-test/finereport11.0_jar_openjdk1.8.zip',
+            'XC':           'https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/11.0/XC/finereport11.0_jar_openjdk1.8.zip',
         },
         '10.0': {
             'release': 'https://fine-build.oss-cn-shanghai.aliyuncs.com/finereport/10.0/release/finereport10.0_jar_openjdk1.8.zip',
@@ -48,7 +49,7 @@ VERSION_MAP = {
 }
 
 BRANCH_MAP = {
-    ('FR', '11.0'): ['feature', 'release', 'final', 'persist', 'XC'],
+    ('FR', '11.0'): ['feature', 'release', 'final', 'persist', 'persist-test', 'XC'],
     ('FR', '10.0'): ['release', 'final', 'persist'],
     ('BI', '11.0'): ['feature', 'release', 'final'],
     ('BI', '10.0'): ['release', 'final', 'persist'],
