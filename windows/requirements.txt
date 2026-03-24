@@ -1,0 +1,5 @@
+requests
+oss2
+pywin32
+psutil
+pyinstaller

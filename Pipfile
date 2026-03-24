@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+
+[dev-packages]
+pyinstaller = "*"
+
+[packages.extras]
+windows = ["pywin32", "psutil", "oss2"]
+
+[requires]
+python_version = "3.11"

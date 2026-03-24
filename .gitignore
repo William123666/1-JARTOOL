@@ -1,0 +1,23 @@
+# Build artifacts（PyInstaller 默认输出目录）
+dist/
+build/
+*.spec.bak
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE config
+.idea/
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Archives
+*.zip
